@@ -30,7 +30,13 @@ exec {'mkdir /shared':
 
 # create test inex file with temporary content
 exec {'create index.html':
-  command  => 'echo "Set by puppet manifest of task 5 from project 0X03 AirBnB" > /data/web_static/releases/test/index.html',
+  command  => 'echo "<html>
+  <head>
+  </head>
+  <body>
+    Holberton School
+  </body>
+</html>" > /data/web_static/releases/test/index.html',
   provider => shell,
 }
 
