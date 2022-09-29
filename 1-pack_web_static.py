@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''Fabric script for task 1 0X03'''
+'''Fabric script'''
 
 from fabric.api import local
 from datetime import datetime
