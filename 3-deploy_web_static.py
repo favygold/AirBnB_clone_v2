@@ -7,6 +7,8 @@ import re
 from os import path
 
 
+env.hosts = ["34.204.193.247", "3.239.48.181"]
+"""The list of host server IP addresses."""
 
 
 def do_pack():
