@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-'''fabric script for task 4 0X03'''
+'''fabric script for task 4'''
 
 from fabric.api import local, put, run, env
 from datetime import datetime
@@ -7,7 +7,8 @@ import re
 from os import path
 
 
-env.hosts = ['34.75.211.145', '3.236.217.0']
+env.hosts = ["34.204.193.247", "3.239.48.181"]
+"""The list of host server IP addresses."""
 
 
 def do_pack():
